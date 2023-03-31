@@ -8,7 +8,7 @@ function EsFeliz(numero){
             suma += Math.pow(parseInt(digitos[i]), 2);
         }
         if(suma === 4){
-            return false;
+            v = false;
         }
         if(suma == 1){
             v = true;
